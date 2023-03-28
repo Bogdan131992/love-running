@@ -8,7 +8,7 @@ body{
     font-family: Lato, sans-serif;
     font-weight: 300;
     color:#3a3a3a;
-    
+
 }
 /* headings and logo */
 h1, h2{
@@ -22,6 +22,7 @@ h1, h2{
 #logo{
 float:left;
 font-size:280%;
+margin-left: 30px;
 }
 
 #menu{
@@ -65,11 +66,11 @@ font-size:280%;
 }
 
 #hero-image{
-    
+
         height: 600px;
         width: 100%;
         background: url('../images/hero-image.webp') no-repeat center center;
-    
+
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -103,4 +104,27 @@ font-size:280%;
     right: 150px;
 
     position: absolute;
+}
+
+/* Club Ethos */
+#club-ethos {
+    height: 600px;
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+
+}
+
+#center-about{
+    width: 33%;
+/* because we don t have float center, we set margin to 0 and auto */
+margin: 0 auto;
 }
