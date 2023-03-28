@@ -164,7 +164,7 @@ text-align: right;
 .left-about-heading h2 {
         text-align: left;
         }
-        
+
 .left-about-heading p {
         text-align: left;
             }
@@ -182,7 +182,7 @@ text-align: right;
     border-width: 1px;
     border-radius: 50%;
     margin:0 auto;
-    
+
 }
 
 #circle-cover-bg {
@@ -203,7 +203,7 @@ text-align: right;
 
 #times div {
 color:#fafafa;
-background-color: rgba(0, 0, 0, .6); 
+background-color: rgba(0, 0, 0, .6);
 width: 20%;
 height: 300px;
 float: left;
@@ -215,4 +215,23 @@ box-sizing: border-box;
 
 #times h2{
     color:#fafafa;
+}
+
+/* footer */
+footer{
+    height: 150px;
+}
+
+.social-networks{
+text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
 }
