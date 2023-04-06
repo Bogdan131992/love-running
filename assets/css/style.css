@@ -1,94 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-*{
-    margin:0;
-    padding:0;
-    border:none;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
+    color: #3a3a3a;
 
 }
+
 /* headings and logo */
-h1, h2{
+h1,
+h2 {
     font-family: Oswals, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525;
+    color: #06e906;
 
 
 }
-#logo{
-float:left;
-font-size:280%;
-margin-left: 30px;
-clear:right;
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    clear: right;
 }
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
-    line-height:75px;
+#menu,
+#logo {
+    line-height: 75px;
     /* for horizontal alligment */
 }
-#menu li{
+
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 
 }
-#menu a{
+
+#menu a {
     text-decoration: none;
 }
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-.active{
+
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero image and cover text*/
 
-#hero-outer{
+#hero-outer {
     height: 600px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
-    position:relative;
+    position: relative;
 }
 
-#cover-text, #cover-text h2{
-    color:#fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 
 }
 
-#hero-image{
+#hero-image {
 
-        height: 600px;
-        width: 100%;
-        background: url('../images/hero-image.webp') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* Creates the level of zoom for hero image */
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
-#cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -112,29 +124,30 @@ clear:right;
 #club-ethos {
     height: 600px;
 }
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 
 }
 
-#center-about{
+#center-about {
     width: 33%;
-/* because we don t have float center, we set margin to 0 and auto */
-margin: 0 auto;
+    /* because we don t have float center, we set margin to 0 and auto */
+    margin: 0 auto;
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin:5px 0;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -145,7 +158,8 @@ hr{
     margin-bottom: 50px;
 
 }
-.right-about-heading{
+
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -155,26 +169,28 @@ hr{
 }
 
 .right-about-heading h2 {
-text-align: right;
+    text-align: right;
 }
 
 .right-about-heading p {
     text-align: right;
-    }
+}
 
 .left-about-heading h2 {
-        text-align: left;
-        }
+    text-align: left;
+}
 
 .left-about-heading p {
-        text-align: left;
-            }
-#welcome{
+    text-align: left;
+}
+
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-#circle-container{
+
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -182,15 +198,16 @@ text-align: right;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
+    margin: 0 auto;
 
 }
 
 #circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
-    height:100%;
+    height: 100%;
     border-radius: 50%;
 }
+
 /* event times */
 
 #times {
@@ -203,38 +220,39 @@ text-align: right;
 }
 
 #times div {
-color:#fafafa;
-background-color: rgba(0, 0, 0, .6);
-width: 20%;
-height: 300px;
-float: left;
-padding: 30px 0 0 10px;
-text-align: center;
-border: 2px solid white;
-box-sizing: border-box;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
-#times h2{
-    color:#fafafa;
+#times h2 {
+    color: #fafafa;
 }
 
 /* footer */
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
-text-align: center;
+.social-networks {
+    text-align: center;
 }
 
-.social-networks > li{
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /* Gallery.html page */
@@ -245,79 +263,86 @@ text-align: center;
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
-    #welcome{
+    #welcome {
         padding: 30px 0;
-        margin:0;
+        margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
-        float:left;
+        float: left;
         padding: 0;
     }
 
-    #center-about{
-        clear:both;
+    #center-about {
+        clear: both;
         width: 100%;
-        float:left;
-        padding:0;
+        float: left;
+        padding: 0;
     }
 
-    #times > div {
+    #times>div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
     }
 
-    hr{
-        display:none;
+    hr {
+        display: none;
     }
 
 }
-/* For medium screen sizes from 960 px wide and down */
-@media screen and (max-width: 960px){
 
-    #menu{
-        clear:left;
-        float:left;
+/* For medium screen sizes from 960 px wide and down */
+@media screen and (max-width: 960px) {
+
+    #menu {
+        clear: left;
+        float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height:25px;
+        line-height: 25px;
     }
 
-    #cover-text{
-        left:0;
+    #cover-text {
+        left: 0;
     }
+
     #club-ethos {
-        width:90%;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
-        width:inherit;
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
     }
-    .left-about-heading h2, .right-about-heading h2 {
-        width:100%;
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -327,6 +352,7 @@ text-align: center;
     }
 
 }
+
 /* For mobile device 800px and down */
 @media screen and (max-width:800px) {
     #photos {
